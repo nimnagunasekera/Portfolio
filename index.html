@@ -41,47 +41,37 @@
 
     <!-- main content -->
     <main>
-        <section class="p-20">
-            <div class="container mx-auto">
-                <div class="flex justify-center">
-                    <div class="flex flex-col gap-5 text-center">
-                        <img class="rounded-full bg-gray-50 h-52 w-56 mx-auto" src="https://rabiulislam.dev/documents/images/portfolio/logo.png" />
-                        <div class="flex flex-col gap-3">
-                            <h1 class="font-bold text-6xl">Rabiul Islam</h1>
-                            <p class="text-gray-500 text-sm">Senior Full Stack Web Developer (Laravel, Vue, MySql)</p>
-                        </div>
-                        <a href="#" class="bg-gray-50 mx-auto w-32 text-center rounded-md p-2 border border-1 border-gray-100 hover:bg-white">Hire me</a>
-                    </div>
+        <section class="p-10 bg-gray-50">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <!-- Profile Section -->
+                <div class="flex flex-col items-center text-center">
+                    <img class="rounded-full h-40 w-40 mb-6 border-4 border-gray-200 shadow-lg" 
+                         src="D:\Desktop\GitHub\Portfolio\images\profile.jpg" 
+                         alt="Nimna Gunasekera">
+                    <h1 class="font-bold text-4xl text-gray-800">Nimna Gunasekera</h1>
+                    <p class="text-gray-600 text-base mt-2">Full Stack Web Developer</p>
+                    <p class="text-gray-500 text-sm">(Laravel, Vue, MySQL)</p>
+                </div>
+                <!-- About Section -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">About Me</h2>
+                    <p class="text-gray-600 leading-7 text-justify">
+                        Hello there! I'm a full stack web developer, and I'm very passionate and dedicated to my work.
+                        With more than 5 years of experience as a professional web developer, I have acquired the skills and
+                        knowledge necessary to make your project a success. I enjoy every step of the development process,
+                        from discussion and collaboration to delivering a polished product.
+                    </p>
                 </div>
             </div>
         </section>
-
-        <!-- about me -->
-        <section id="about" class="sm:p-10 lg:p-20 bg-gray-50">
-            <div class="container mx-auto">
-                <div class="sm:columns-2">
-                    <img class="sm:w-1/2 mb-10 sm:mb-0" src="https://rabiulislam.dev/documents/images/portfolio/user-full-stack-development-rabiul-islam.png" />
-                    <div>
-                        <h2 class="text-bold text-2xl mb-3">Full Stack Web Developer</h2>
-                        <p class="mb-5 text-sm text-gray-400">Providing web solutions</p>
-                        <p class="text-gray-500 text-justify leading-10">
-                            Hello there! I'm a full stack web developer, and I'm very passionate and dedicated to my
-                            work.
-                            With more than 5 years of experience as a professional web developer,
-                            With this time period I have acquired the skills and knowledge necessary to make your
-                            project a success.
-                            I enjoy every step of the development process, from discussion and collaboration.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+        
 
         <!-- services -->
-        <section id="services" class="sm:p-10 lg:p-20 p-5">
+        <section id="services" class="sm:p-10 p-5">
             <div class="sm:container mx-auto">
                 <h2 class="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">Services</h2>
-                <div class="sm:grid grid-cols-2">
+                <div class="sm:grid grid-cols-2 gap-x-10">
                     <div class="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
                         <h3 class="text-xl mb-5 font-bold">Web Design</h3>
                         <p class="leading-10 text-gray-500 text-justify">
@@ -132,10 +122,10 @@
         </section>
 
         <!-- portfolio -->
-        <section class="lg:p-20 p-5" id="portfolio">
+        <section class="p-5" id="portfolio">
             <div class="lg:container mx-auto">
                 <h2 class="text-center text-4xl font-bold pb-10">Portfolio</h2>
-                <div class="lg:columns-4 sm:columns-2">
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="p-5 bg-gray-50 sm:me-5 sm:mb-10 mb-5 rounded-md hover:shadow-md">
                         <h3 class="text-xl mb-5">Food Delivery</h3>
                         <img class="rounded-md h-48 max-h-48 w-full" src="https://rabiulislam.dev/documents/images/portfolio/food-delivery.jpg" />
@@ -180,7 +170,7 @@
         </section>
 
         <!-- section -->
-        <section class="sm:p-20 p-5" id="contact">
+        <section class="sm:p-10 p-5" id="contact">
             <div class="sm:container mx-auto">
                 <h2 class="text-center text-4xl font-bold pb-10">Contact</h2>
                 <div class="w-full sm:flex">
@@ -235,7 +225,7 @@
 
     </main>
 
-    <footer class="bg-gray-50 lg:p-20 p-10">
+    <footer class="bg-gray-50 p-10">
         <section class="container mx-auto">
             <div class="sm:grid justify-between sm:grid-cols-2 lg:grid-cols-4">
                 <div class="flex gap-5 flex-col">
